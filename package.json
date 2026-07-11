@@ -1,0 +1,14 @@
+{
+  "name": "aria",
+  "version": "1.0.0",
+  "description": "Aria — Personal AI Voice Assistant",
+  "main": "netlify/functions/api.js",
+  "scripts": {
+    "start": "node netlify/functions/api.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.2",
+    "express": "^5.2.1",
+    "serverless-http": "^3.1.1"
+  }
+}
