@@ -7,7 +7,7 @@
     "start": "node netlify/functions/api.js"
   },
   "dependencies": {
-    "@google/genai": "^0.1.2",
+    "@google/genai": "latest",
     "express": "^5.2.1",
     "serverless-http": "^3.1.1"
   }
