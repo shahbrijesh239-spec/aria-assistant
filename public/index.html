@@ -606,7 +606,7 @@ async function ariaReply(inject, useHistory) {
 
   try {
     // BYPASSING NETLIFY REDIRECTS WITH DIRECT FUNCTION PATH
-    const res = await fetch('/.netlify/functions/api/chat', {
+    const res = await fetch('/.netlify/functions/api/', {
       method:'POST',
       headers:{'Content-Type':'application/json'},
       body: JSON.stringify({ messages, system: sysPrompt(), apiKey: S.key })
